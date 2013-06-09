@@ -158,9 +158,9 @@ function save_event_details(){
 
 //Load datepicker
 function events_admin_init() {
-        wp_register_script( 'event-script', plugins_url('/event-script.js', __FILE__) );
+        wp_register_script( 'event-script', plugins_url('/js/event-script.js', __FILE__) );
         wp_enqueue_script( 'event-script' );
-		wp_register_style( 'event-style', plugins_url('/event-style.css', __FILE__) );
+		wp_register_style( 'event-style', plugins_url('/css/event-style.css', __FILE__) );
 		wp_enqueue_style( 'event-style' );
         wp_enqueue_script( 'jquery-ui-datepicker' );
 		wp_enqueue_script( 'jquery-ui-autocomplete' );
